@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Josefin+Sans&family=Lexend+Deca&family=Poppins:wght@300;700&family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
 
 *{
     margin: 0;
@@ -7,6 +9,33 @@
     font-family: 'Josefin Sans', sans-serif; 
 }
 /* <== Eno  */
+ p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3c6382;
+}
+.header{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: #0c2461;
+}
+.sub{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #0c2461;
+}
+i{
+   font-size: 58px; 
+  color: #ff6348;
+}
+h6{
+    color: #ff6348;
+    font-weight: 900; 
+}
 
 
 
