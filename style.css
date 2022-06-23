@@ -1,49 +1,51 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap');
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Josefin Sans', sans-serif;
 }
+
+
 /* <== Eno  */
- p{
+
+p {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     line-height: 30px;
     color: #3c6382;
 }
-.header{
-    font-family: 'Josefin Sans', sans-serif; 
+
+.header {
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 800;
     font-size: 50px;
     line-height: 60px;
     color: #0c2461;
 }
-.sub{
+
+.sub {
     font-size: 30px;
     margin-top: 20px;
     font-weight: 600;
     color: #0c2461;
 }
-i{
-   font-size: 58px; 
-  color: #ff6348;
-}
-h6{
+
+i {
+    font-size: 58px;
     color: #ff6348;
-    font-weight: 900; 
 }
 
+h6 {
+    color: #ff6348;
+    font-weight: 900;
+}
 
 
 /* <== Precious */
 
-
 main {
-    background-color:#f6f3ea;
+    background-color: #f6f3ea;
 }
 
 .main1 {
@@ -54,35 +56,39 @@ main {
     margin: 0 20px;
     margin-top: 3rem;
 }
-#div1{
+
+#div1 {
     padding-right: 30px;
 }
+
 .image {
     margin-top: 8rem;
     width: 250px;
-    height: 250px;    
+    height: 250px;
 }
 
 .notif2 {
     margin-left: 10px;
     display: flex;
-    place-items:top;
+    place-items: top;
 }
 
 .icons {
     margin-top: 10px;
     margin-right: 10px;
 }
-#notif3{
+
+#notif3 {
     margin-left: 10px;
     display: flex;
-   place-items:top;
+    place-items: top;
 }
 
 .notif3 {
     padding-top: 10px;
     padding-left: 20px;
 }
+
 .not {
     margin: 10px;
 }
@@ -90,7 +96,8 @@ main {
 #icon {
     color: #ff6348;
 }
-.img{
+
+.img {
     width: 70px;
 }
 
@@ -101,36 +108,69 @@ main {
 
 .h1c {
     color: #0c2461;
-    font-weight: 900
-    ;
+    font-weight: 900;
     font-size: 50px;
-    font-family:'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h3 {
     color: #ff6348;
 }
-.h31{
+
+.h31 {
     color: #ff6348;
 }
-.h6c{
+
+.h6c {
     color: #3C6382;
     margin-top: 10px;
 }
 
-.h14{
+.h14 {
     color: #0c2461;
- 
 }
 
 p {
     color: #0c2461;
 }
+
 @media ( max-width:1440px) {
-    main{
+    main {
         flex-direction: row;
     }
 }
 
 
 /* <== Udauk  */
+
+.king {
+    font-weight: 700;
+    font-size: 4rem;
+    color: rgb(33, 33, 83);
+}
+
+.bg-color1 {
+    background-color: #7dcaba;
+}
+
+.bucks {
+    background-color: orangered;
+    font-weight: 700;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.img-fluid {
+    width: 500px;
+    height: 750px;
+}
+
+.eazy {
+    font-size: 1.5rem;
+    color: #338f7c;
+}
+
+.zone {
+    padding-left: 1rem;
+}
