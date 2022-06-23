@@ -13,7 +13,95 @@
 /* <== Precious */
 
 
+main {
+    background-color:#f6f3ea;
+}
 
+.main1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+    margin: 0 20px;
+    margin-top: 3rem;
+}
+#div1{
+    padding-right: 30px;
+}
+.image {
+    margin-top: 8rem;
+    width: 250px;
+    height: 250px;    
+}
+
+.notif2 {
+    margin-left: 10px;
+    display: flex;
+    place-items:top;
+}
+
+.icons {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#notif3{
+    margin-left: 10px;
+    display: flex;
+   place-items:top;
+}
+
+.notif3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.not {
+    margin: 10px;
+}
+
+#icon {
+    color: #ff6348;
+}
+.img{
+    width: 70px;
+}
+
+.sec1 {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.h1c {
+    color: #0c2461;
+    font-weight: 900
+    ;
+    font-size: 50px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+h3 {
+    color: #ff6348;
+}
+.h31{
+    color: #ff6348;
+}
+.h6c{
+    color: #3C6382;
+    margin-top: 10px;
+}
+
+.h14{
+    color: #0c2461;
+ 
+}
+
+p {
+    color: #0c2461;
+}
+@media ( max-width:1440px) {
+    main{
+        flex-direction: row;
+    }
+}
 
 
 /* <== Udauk  */
