@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,9 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
 /* <== Victor  */
+
 .nav-middle {
     padding-left: 120px;
     font-family: 'Barlow', sans-serif;
@@ -63,7 +64,6 @@
     display: flex;
     /* align-items: center; */
     margin-bottom: 5px;
-
 }
 
 .socials {
@@ -81,8 +81,8 @@
 
 hr {
     width: 80%;
-
 }
+
 
 /* <== Eno  */
 
@@ -232,10 +232,9 @@ p {
 
 .bucks {
     background-color: orangered;
-    font-weight: 700;
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    font-weight: 600;
+    padding: 10px 30px 15px;
+    border-radius: 4px;
 }
 
 .img-fluid {
@@ -249,5 +248,7 @@ p {
 }
 
 .zone {
-    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    vertical-align: middle;
 }
