@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,82 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+/* <== Victor  */
+.nav-middle {
+    padding-left: 120px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+}
+
+.nav2 {
+    height: 100px;
+}
+
+.button-shop {
+    background-color: #ff6348;
+    color: #f6f3ea;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.button-shop:hover {
+    background-color: #f6f3ea;
+    color: #ff6348;
+    border: 1px solid #ff6348;
+}
+
+.phone {
+    font-size: 18px;
+}
+
+.phone::after {
+    content: " Call Us: +98 54321 67890";
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0c2461;
+    font-weight: 200;
+}
+
+.envelope {
+    font-size: 18px;
+}
+
+.envelope::after {
+    content: " Email Us: support@example.com";
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0c2461;
+    font-weight: 200;
+}
+
+.fontawe {
+    display: flex;
+    align-items: center;
+}
+
+.socials-over {
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 5px;
+
+}
+
+.socials {
+    font-size: 18px;
+    border: 1px solid #ff6348;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 6px;
+}
+
+.socials:hover {
+    background-color: #ff6348;
+    color: #f6f3ea;
+}
+
+hr {
+    width: 80%;
+
+}
 
 /* <== Eno  */
 
@@ -134,7 +211,7 @@ p {
     color: #0c2461;
 }
 
-@media ( max-width:1440px) {
+@media (max-width:1440px) {
     main {
         flex-direction: row;
     }
